@@ -50,6 +50,7 @@ void BooksDialog::on_pushButton_5_clicked()
     {
     user->setBalance(user->getBalance()+new_balance);
     ui->balanceLabel->setText(QString::number(user->getBalance()));
+    ui->textEdit->setPlainText("");
     }
     else
     {
